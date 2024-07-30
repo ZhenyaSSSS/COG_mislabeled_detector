@@ -1,0 +1,14 @@
+build:
+  gpu: false
+  python_version: "3.8"
+  python_packages:
+    - "torch"
+    - "torchvision"
+    - "open_clip_torch"
+    - "Pillow"
+    - "matplotlib"
+    - "tqdm"
+    - "numpy"
+    - "scikit-learn"
+
+predict: "predict.py:Predictor"
